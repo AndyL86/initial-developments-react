@@ -1,0 +1,66 @@
+.about-section {
+    padding: 6rem 0 0;
+    /* background-image: linear-gradient(rgb(227 207 207 / 92%), rgb(229 217 217 / 71%)); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position-y: center;
+    background-position-x: center;
+    border-bottom: 8px black solid;
+}
+
+.about-details-section {
+    /* background-image: url(/assets/images/about-me-background.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    height: 765px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.about-text {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    color: #27ff00;
+    max-width: 400px;
+    padding-top: 35px;
+    line-height: 32px;
+}
+
+.about-flash {
+    width: 500px;
+    padding-top: 6px;
+    color:#f2f;
+    -webkit-animation: flash linear 1s infinite;
+    animation: flash linear 1s infinite;
+}
+@-webkit-keyframes flash {
+    0% { opacity: 1; } 
+    50% { opacity: .1; } 
+    100% { opacity: 1; }
+}
+@keyframes flash {
+    0% { opacity: 1; } 
+    50% { opacity: .1; } 
+    100% { opacity: 1; }
+}
+
+.about-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

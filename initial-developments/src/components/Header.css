@@ -1,0 +1,87 @@
+.masthead-avatar {
+    max-width: 100%;
+    padding: 60px 0px;
+  }
+  
+  .masthead-heading {
+    text-shadow: 5px 5px 3px black;
+    font-size: 6rem;
+    font-weight: 700;
+    color: #e69b0c;
+    -webkit-text-stroke: 3px black;
+  }
+  
+  .masthead-subheading {
+    text-shadow: 5px 5px 3px black;
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(10, 177, 177);
+    -webkit-text-stroke: 2px black;
+  }
+  
+  .masthead-title {
+    text-shadow: 5px 5px 3px black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(204, 211, 211);
+    -webkit-text-stroke: 1px black;
+  }
+  
+  .details-box {
+    background-color: #0a0ab1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 55%;
+    margin: auto;
+    border: 10px black solid;
+    padding: 40px;
+    margin-bottom: 5rem;
+    clip-path: polygon(
+    0px calc(100% - 12px),
+    3px calc(100% - 12px),
+    3px calc(100% - 6px),
+    6px calc(100% - 6px),
+    6px calc(100% - 3px),
+    12px calc(100% - 3px),
+    12px 100%,
+    calc(100% - 12px) 100%,
+    calc(100% - 12px) calc(100% - 3px),
+    calc(100% - 6px) calc(100% - 3px),
+    calc(100% - 6px) calc(100% - 6px),
+    calc(100% - 3px) calc(100% - 6px),
+    calc(100% - 3px) calc(100% - 12px),
+    100% calc(100% - 12px),
+    100% 12px,
+    calc(100% - 3px) 12px,
+    calc(100% - 3px) 6px,
+    calc(100% - 6px) 6px,
+    calc(100% - 6px) 3px,
+    calc(100% - 12px) 3px,
+    calc(100% - 12px) 0px,
+    12px 0px,
+    12px 3px,
+    6px 3px,
+    6px 6px,
+    3px 6px,
+    3px 12px,
+    0px 12px
+    );
+  }
+  
+  .my-details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  
+  .my-details img {
+    margin-bottom: 10px;
+  }
+  
+  .details-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
