@@ -15,9 +15,9 @@ import shopifyTwelve from "../src/assets/images/shopify_7_mob.webp";
 export const SHOPIFY_CARDS = [
     {
         image: shopifyOne,
-        title: 'Footer Redesign and Layout Optimisation',
-        tools: 'Tools & Tech: \n Liquid, HTML, CSS, Shopify Navigation Settings',
-        overview: 'Overview: Redesigned and implemented a responsive, UX-guided footer. Handled layout restructuring, accessibility improvements and the integration of new components such as mobile app download links and social icons.',
+        title: "Footer Redesign and Layout Optimisation",
+        tools: "Tools & Tech:\n Liquid, HTML, CSS, Shopify Navigation Settings",
+        overview: "Overview: \n Redesigned and implemented a responsive, UX-guided footer. Handled layout restructuring, accessibility improvements and the integration of new components such as mobile app download links and social icons.",
         contributions: "Key Contributions:\n - Rebuilt the footer using a responsive CSS grid system, ensuring optimal layout across desktop, tablet and mobile \n - Standardised styling to align with the site's updated design system, including iconography, font usage and collapsible sections on mobile for a cleaner user experience without sacrificing content depth \n - Implemented functional app download icons to drive traffic to the newly developed mobile app",
         impact: "Impact:\n Delivered a clean, modular structure to support future content updates and improve user navigation across devices.",
         alt: "Shopify screenshot 1"
