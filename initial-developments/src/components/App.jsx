@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './components/Header';
-import About from './components/About';
-import Navbar from './components/Navbar';
-import Profile from './components/Profile';
+import Header from './Header';
+import About from './About';
+import Navbar from './Navbar';
+import Profile from './Profile';
 
 function App() {
   return (
