@@ -29,80 +29,8 @@ display: none ;
   background-color: #252925;
 }
 
-
-
 .shopify-portfolio {
 background-color: #f6f8f3;
-}
-
-.shopify-section {
-margin: 25px;
-}
-
-.shopify-card {
-padding: 15px 15px 0px 15px;
-border: 2px #99c14f solid;
-cursor: pointer;
-}
-
-.shopify-card p {
-font-size: 15px;
-}
-
-.shopify-card .card-title {
-font-family: "Oswald", sans-serif;
-font-optical-sizing: auto;
-font-weight: 500;
-font-style: normal;
-font-size: 22px;
-padding: 0;
-min-height: 53px;
-}
-
-.shopify-back {
-text-decoration: none;
-font-family: "Oswald", sans-serif;
-font-optical-sizing: auto;
-font-weight: 400;
-font-style: normal;
-color: #030304;
-padding-left: 10px;
-}
-
-.shopify-header {
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-background: linear-gradient(171deg, rgba(229, 239, 213, 1) 0%, rgba(87, 199, 133, 1) 48%, rgba(104, 237, 182, 0.54) 100%);
-}
-
-.shopify-header-image {
-padding: 15px 0px 5px 15px;
-float: left;
-margin-right: 8px;
-width: 120px;
-height: 120px;
-}
-
-.shopify-header-text {
-font-size: 15px;
-margin: 20px;
-font-weight: 500;
-text-align: justify;
-color: #333c3c;
-padding-right: 15px;
-}
-
-.shopify-header-text p {
-margin: 0;
-font-weight: 600;
-padding-right: 15px;
-}
-
-.shopify-modal-body {
-position: relative;
-flex: 1 1 auto;
 }
 
 .shopify-modal-content {
@@ -110,35 +38,6 @@ top: 120px;
 padding: 5px;
 }
 
-.back-container {
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-margin-left: 20px;
-padding-top: 15px;
-}
-
-
-@media screen and (min-width: 769px) {
-  
-  .shopify-header-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 15px;
-  }
-
-  .shopify-header-image {
-    width: 160px;
-    height: 160px;
-    margin: 20px;
-  }
-
-  .shopify-header-text {
-    font-size: 20px;
-    padding-right: 20px;
-  }
-}
 @media screen and (max-width: 768px) {
   .col-6 {
       width: 100%;

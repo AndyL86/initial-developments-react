@@ -7,127 +7,127 @@
   box-shadow: 5px 6px 5px 1px #666;
 }
     
-  .left-panel, .right-panel, .circle-lid {
-    background-color: #bdbbbe;
-    box-shadow: inset 0px 0px 7px 2px #666;
-  }
-  
-  .left-panel {
-    height: 250px;
-    border: 2px black solid;
-    width: 30%;
-    border-radius: 5px;
-  }
-   
-  .middle-panel {
-    height: 240px;
-    width: 40%;
-    border-top: 2px black solid;
-    border-bottom: 2px black solid;
-    margin-top: 5px;
-    box-shadow: 1px 8px 4px 2px #666, inset 0px 0px 7px 2px #666;
-    background-color: #cfcbcb;
-  }
-  
-  .right-panel {
-    height: 250px;
-    border: 2px black solid;
-    width: 30%;
-    border-radius: 5px;
-  }
-  
-  .circle-lid {
-  width: 112%;
-  height: 445px;
-  border: 3px black groove;
-  border-radius: 50%;
-  position: relative;
-  left: -31px;
-  top: -215px;
-  }
-  
-  .back-button {
-  display: flex;
-  position: relative;
-  top: 155px;
-  left: 55px;
-  text-decoration: none;
-  border: 2px black solid;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  padding: 21px;
-  background-color: #aba9a9;
-  color: aqua;
+.left-panel, .right-panel, .circle-lid {
+  background-color: #bdbbbe;
   box-shadow: inset 0px 0px 7px 2px #666;
+}
+
+.left-panel {
+  height: 250px;
+  border: 2px black solid;
+  width: 30%;
+  border-radius: 5px;
+}
+  
+.middle-panel {
+  height: 240px;
+  width: 40%;
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+  margin-top: 5px;
+  box-shadow: 1px 8px 4px 2px #666, inset 0px 0px 7px 2px #666;
+  background-color: #cfcbcb;
+}
+
+.right-panel {
+  height: 250px;
+  border: 2px black solid;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.circle-lid {
+width: 112%;
+height: 445px;
+border: 3px black groove;
+border-radius: 50%;
+position: relative;
+left: -31px;
+top: -215px;
+}
+
+.back-button {
+display: flex;
+position: relative;
+top: 155px;
+left: 55px;
+text-decoration: none;
+border: 2px black solid;
+width: 80px;
+height: 80px;
+border-radius: 50%;
+padding: 21px;
+background-color: #aba9a9;
+color: aqua;
+box-shadow: inset 0px 0px 7px 2px #666;
+cursor: pointer;
+justify-content: center;
+align-items: center;
+}
+
+.card-title {
+  text-align: center;
+  padding: 15px;
+}
+
+.portfolio-header {
+  /* background-image: url(/initial-developments/src/assets/images/anime-trueno.webp); */
+  padding-top: 10rem;
+  height: 750px;
+  background-size: cover;
+  border-bottom: 8px black solid;
+  background-position-x: center;
+  background-position-y: bottom;
+  width: auto;
+}
+
+.portfolio-heading {
+  position: relative;
+  display: flex;
+  top: 300px;
+  left: 80px;
+}
+
+.portfolio-heading img {
+width: 62%;
+}
+
+/* #portfolio {
+  background-image: url(/initial-developments/src/assets/images/portfolio-background.webp);
+  background-size: contain;
+} */
+
+.img-fluid {
+  border: 1px black solid;
+  border-radius: 3px;
+}
+
+.main-portfolio-img {
+  height: 245px;
+  box-shadow: 9px 8px #999;
   cursor: pointer;
-  justify-content: center;
+  max-width: 100%;
+  border: 3px grey groove;
+}
+
+.main-portfolio-img:active {
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.shopify-portfolio-img {
+  height: auto;
+  width: 100%;
+  box-shadow: 9px 8px #999;
+  cursor: pointer;
+  border: 3px grey groove;
+}
+
+.shopify-portfolio-item {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  }
-  
-  .card-title {
-    text-align: center;
-    padding: 15px;
-  }
-  
-  .portfolio-header {
-    /* background-image: url(/initial-developments/src/assets/images/anime-trueno.webp); */
-    padding-top: 10rem;
-    height: 750px;
-    background-size: cover;
-    border-bottom: 8px black solid;
-    background-position-x: center;
-    background-position-y: bottom;
-    width: auto;
-  }
-  
-  .portfolio-heading {
-    position: relative;
-    display: flex;
-    top: 300px;
-    left: 80px;
-  }
-  
-  .portfolio-heading img {
-  width: 62%;
-  }
-  
-  /* #portfolio {
-    background-image: url(/initial-developments/src/assets/images/portfolio-background.webp);
-    background-size: contain;
-  } */
-  
-  .img-fluid {
-    border: 1px black solid;
-    border-radius: 3px;
-  }
-  
-  .main-portfolio-img {
-    height: 245px;
-    box-shadow: 9px 8px #999;
-    cursor: pointer;
-    max-width: 100%;
-    border: 3px grey groove;
-  }
-  
-  .main-portfolio-img:active {
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-  }
-
-  .shopify-portfolio-img {
-    height: auto;
-    width: 100%;
-    box-shadow: 9px 8px #999;
-    cursor: pointer;
-    border: 3px grey groove;
-  }
-
-  .shopify-portfolio-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+}
 
   @media screen and (min-width: 1200px) {
     .portfolio-heading {

@@ -1,0 +1,19 @@
+.shopify-card {
+padding: 15px 15px 0px 15px;
+border: 2px #99c14f solid;
+cursor: pointer;
+}
+
+.shopify-card p {
+font-size: 15px;
+}
+
+.shopify-card .card-title {
+font-family: "Oswald", sans-serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
+font-size: 22px;
+padding: 0;
+min-height: 53px;
+} 

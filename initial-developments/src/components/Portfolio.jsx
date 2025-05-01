@@ -1,7 +1,7 @@
 import { PORTFOLIO_CARDS } from '../data';
 import PortfolioCards from './PortfolioCards';
-import PortfolioBackground from './assets/images/portfolio-background.webp';
-import ShopifyLogo from './assets/images/shopify-full-logo.png';
+import PortfolioBackground from '../assets/images/portfolio-background.webp';
+import ShopifyLogo from '../assets/images/shopify-full-logo.png';
 import './PortfolioCards.css';
 
 export default function Portfolio() {

@@ -20,7 +20,7 @@ import './About.css';
 //     count = 0;
 //   }
 //   this.innerHTML = skyline[count][1];
-// });
+// }); 
 
 export default function About() {
     return (
@@ -29,15 +29,15 @@ export default function About() {
       <div className="my-details">
         <img src={Contact} alt="" width="120px" height="20px" />
         <div className="details-text">
-          {/* <a className="btn btn-outline-light btn-social mx-1" href="mailto:alinehan89@outlook.com" aria-label="contact via email">
+          <a className="btn btn-outline-light btn-social mx-1" href="mailto:alinehan89@outlook.com" aria-label="contact via email">
             <i className="fa-regular fa-envelope" style={{color:"white"}}></i>
             </a>
           <a className="btn btn-outline-light btn-social mx-1" href="tel:07713465317" aria-label="Contant via phone">
             <i className="fa-solid fa-phone" style={{color: "white"}}></i>
             </a>
           <a className="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/a-linehan" target="_blank" aria-label="Linked in profile">
-          <i className="fab fa-fw fa-linkedin-in" style={{color:"white">}}</i>
-          </a> */}
+          <i className="fab fa-fw fa-linkedin-in" style={{color:"white"}}></i>
+          </a>
         </div>
       </div>
       <div className="my-details">
