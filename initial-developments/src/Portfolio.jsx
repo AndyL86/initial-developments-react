@@ -1,10 +1,13 @@
 import { PORTFOLIO_CARDS } from './data';
 import PortfolioCards from './PortfolioCards';
+import PortfolioBackground from './assets/images/portfolio-background.webp';
+import ShopifyLogo from './assets/images/shopify-full-logo.png';
+import './PortfolioCards.css';
 
 export default function Portfolio() {
     return (
         <>
-            <section className="page-section portfolio" id="portfolio">
+            <section className="page-section portfolio" id="portfolio" style={{backgroundImage: `url(${PortfolioBackground})`}}>
         <div className="container">
           <div className="playstation-container">
               <div className="left-panel">
@@ -24,7 +27,7 @@ export default function Portfolio() {
                       <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                           <div className="portfolio-item-caption-content text-center text-white"></div>
                       </div>
-                      <img className="shopify-portfolio-img" src="assets/images/shopify-full-logo.png" alt="Shopify portfolio image"/>
+                      <img className="shopify-portfolio-img" src={ShopifyLogo} alt="Shopify portfolio image"/>
                       </a>
                   </div>
               </div>

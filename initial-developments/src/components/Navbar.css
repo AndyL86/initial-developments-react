@@ -1,0 +1,22 @@
+li {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .navbar {
+    background-color: #eaefef;
+    border-bottom: 8px black solid;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 50px;
+  }
+  
+  .nav-item {
+    padding: 0px 20px;
+  }
