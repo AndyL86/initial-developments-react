@@ -1,6 +1,8 @@
 import { SHOPIFY_CARDS } from '../data-shopify';
+// import { SHOPIFY_MODAL } from '../data-shopify-modal';
 import ShopifyBag from '../assets/images/shopify-bag.webp';
 import ShopifyCards from './ShopifyCards';
+// import ShopifyModal from './ShopifyModals';
 import './Shopify.css';
 
 
@@ -31,6 +33,19 @@ export default function Shopify() {
             <ShopifyCards {...SHOPIFY_CARDS[9]}/>
             <ShopifyCards {...SHOPIFY_CARDS[10]}/>
             <ShopifyCards {...SHOPIFY_CARDS[11]}/>
+            {/* <ShopifyModal {...SHOPIFY_MODAL[0]}/>
+            <ShopifyModal {...SHOPIFY_MODAL[1]}/>
+            <ShopifyModal {...SHOPIFY_MODAL[2]}/>
+            <ShopifyModal {...SHOPIFY_MODAL[3]}/>
+            <ShopifyModal {...SHOPIFY_MODAL[4]}/>
+            <ShopifyModal {...SHOPIFY_MODAL[5]}/>
+            <ShopifyModal {...SHOPIFY_MODAL[6]}/>
+            <ShopifyModal {...SHOPIFY_MODAL[7]}/>
+            <ShopifyModal {...SHOPIFY_MODAL[8]}/>
+            <ShopifyModal {...SHOPIFY_MODAL[9]}/>
+            <ShopifyModal {...SHOPIFY_MODAL[10]}/>
+            <ShopifyModal {...SHOPIFY_MODAL[11]}/>
+            <ShopifyModal {...SHOPIFY_MODAL[12]}/> */}
         </div>
     </section>
     </>

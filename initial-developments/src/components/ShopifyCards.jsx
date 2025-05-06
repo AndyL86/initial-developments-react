@@ -1,9 +1,9 @@
 import './ShopifyCards.css'
 
-export default function ShopifyCards({image, title, tools, overview, contributions, impact, alt}) {
+export default function ShopifyCards({image, title, tools, overview, contributions, impact, alt, id}) {
     return (
         <div className="col">
-            <div className="card shopify-card" data-bs-toggle="modal" data-bs-target="#portfolioModal8">
+            <div className="card shopify-card" data-bs-toggle="modal" data-bs-target={id}>
             <img src={image} className="card-img-top" alt={alt} />
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>
