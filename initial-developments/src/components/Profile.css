@@ -510,6 +510,20 @@ border-color: transparent transparent #eae8e4 transparent;
   background-size: contain;
 }
 
+.language-logos {
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.code-logo {
+  height: 80px;
+}
+
 @media screen and (max-width: 1400px) {
   .gameboy-container {
     height: 640px;
@@ -593,6 +607,12 @@ border-color: transparent transparent #eae8e4 transparent;
       top: 7px;
   }
 }
+
+@media screen and (max-width: 768px) {
+.code-logo {
+      height: 30px;
+    }
+  }
 
 @media screen and (max-width: 450px) {
   .screen-container {

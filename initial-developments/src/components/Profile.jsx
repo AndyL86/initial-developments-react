@@ -1,3 +1,8 @@
+import ReactLogo from '../assets/images/React_Logo.png';
+import HtmlLogo from '../assets/images/HTML5_logo.png';
+import CssLogo from '../assets/images/CSS3_logo.png';
+import BootstrapLogo from '../assets/images/Bootstrap_logo.png';
+import JsLogo from '../assets/images/js_logo.png';
 import './Profile.css';
 
 export default function Profile() {
@@ -68,6 +73,13 @@ export default function Profile() {
       </div>
 
     </div>
+  </div>
+  <div className="language-logos">
+    <a><img className="code-logo" src={HtmlLogo} alt="html logo" height="100px" /></a>
+    <a><img className="code-logo" src={CssLogo} alt="css logo" height="100px" /></a>
+    <a><img className="code-logo" src={JsLogo} alt="javascript logo" height="100px" /></a>
+    <a><img className="code-logo" src={BootstrapLogo} alt="bootstrap logo" height="100px" /></a>
+    <a><img className="code-logo" src={ReactLogo} alt="react logo" height="100px" /></a>
   </div>
   </section>
     )

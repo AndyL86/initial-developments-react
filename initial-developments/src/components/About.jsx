@@ -1,15 +1,11 @@
+import { useState } from 'react';
 import AboutBackground from '../assets/images/about-background.webp';
 import AboutArcade from '../assets/images/about-me-background.png';
 import AboutBanner from '../assets/images/about-me-headline.webp';
 import Location from '../assets/images/location-header-logo.png';
 import Contact from '../assets/images/contact-header-logo.png';
+import { ABOUT_TEXT } from '../data-about.js';
 import './About.css';
-
-// const aboutMe = {
-//   paraOne: "Hello! My name's Andy and I'm a Full Stack Developer. I started my journey as a Web Developer in 2023 with a specialism in Ecommerce applications. Click to continue.. ",
-//   paraTwo: "In this time, I have built up my skillset and contributed to a real world, large scale retail business as a Shopify Front End Developer. Click to continue..",
-//   paraThree: "I am keen to grow my experience and knowledge as a Full Stack Developer and further my career."
-// };
 
 // let count = 0;
 // const skyline = Object.entries(aboutMe);
@@ -23,8 +19,13 @@ import './About.css';
 // }); 
 
 export default function About() {
+  let counter = 0;
+
+  const [ defaultMessage, additionalMessage ] = useState(ABOUT_TEXT[counter].pageTwo);
+  
   function clickHandler() {
-    console.log("Hello World!")
+    // console.log(ABOUT_TEXT[counter += 1].pageTwo)
+    additionalMessage(ABOUT_TEXT[counter +=1].pageTwo)
   }
 
     return (
@@ -57,7 +58,7 @@ export default function About() {
     </div>
     <div className="about-details-section" style={{backgroundImage: `url(${AboutArcade})`}}>
         <img className="about-flash" src={AboutBanner} alt="about me headline" />
-        <p onClick={clickHandler} className="about-text" id="aboutText">Hello</p>
+        <p onClick={clickHandler} className="about-text" id="aboutText">{defaultMessage}</p>
     </div>
   </section>
     )
