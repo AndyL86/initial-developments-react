@@ -23,6 +23,10 @@ import './About.css';
 // }); 
 
 export default function About() {
+  function clickHandler() {
+    console.log("Hello World!")
+  }
+
     return (
     <section className="about-section text-white mb-0" id="about" style={{backgroundImage: `url(${AboutBackground})`}}>
     <div className="details-box">
@@ -53,7 +57,7 @@ export default function About() {
     </div>
     <div className="about-details-section" style={{backgroundImage: `url(${AboutArcade})`}}>
         <img className="about-flash" src={AboutBanner} alt="about me headline" />
-        <p className="about-text" id="aboutText"></p>
+        <p onClick={clickHandler} className="about-text" id="aboutText">Hello</p>
     </div>
   </section>
     )
